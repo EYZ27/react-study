@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: navy;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +24,17 @@
   color: white;
 }
 
+li{
+  list-style: none;
+}
+
+.todoInput {
+  border: 0;
+  color: blue;
+  font-size: 14px;
+
+}
+/* 
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
